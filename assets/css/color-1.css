@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #eee;
+  }
+  
+  #perc-wrapper {
+    display: block;
+    width: 100%;
+  }
+  #perc-wrapper .perc {
+    display: inline-block;
+    min-height: 15px;
+  }
+  i {
+    font-weight: bold;
+  }
+
+ 
+  
+  
