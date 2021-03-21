@@ -37,7 +37,7 @@ p,li,span,label,input,textarea{
     /* border: 2px dashed lightblue; */
     min-height: 10em;
 }
-.llas::before{
+.theme::before{
     font-family: "Font Awesome 5 free";
     content: "\f185";
     font-size: large;
@@ -45,11 +45,6 @@ p,li,span,label,input,textarea{
     
 }
 
-#theme-options-wrapper{
-    display: flex;
-    justify-content: center;
-   
-}
 a i{
     text-decoration: none;
     font-size: 3vh;
@@ -132,17 +127,13 @@ h6{
     border-radius: 5px 5px 0 0;
     /* border:1px dashed lightcoral; */
 }
-.nav-wrapper .nav-menu b{
+.nav-wrapper b{
     color: black;
     border:2px solid #fff;
     border-radius: 15px;
     padding: 2px 3.5px;
 }
-.nav-wrapper .nav-menu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;;
-}
+
 #navigation{
     margin:0;
     padding:10px;
