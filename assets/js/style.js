@@ -38,3 +38,14 @@ btn.addEventListener("click", function() {
 $("#togglebutton").click(function () {
   $(".far fa-sun").toggleClass(".far fa-moon");
 });
+
+
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxzbqK3mQ7npiRQTDTfL-DlhRFwn5f15ghDyGVTTSpBPUB-KhsuwO1xLHQGq0CMq7ewLA/exec'
+            const form = document.forms['google-sheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+             .catch(error => console.error('Error!', error.message))
+             form.reset()
+            })
